@@ -34,6 +34,12 @@ body {
   background-color: rgba(235, 251, 255, 0.8);
   background-blend-mode: lighten;
   background-repeat: no-repeat;
+
+  @media only screen and (min-width: 768px) {
+    background-image: url(../images/bg-hero-desktop.svg);
+    background-size: 100% 90%;
+    background-color: rgba(235, 251, 255, 0.6);
+  }
 }
 
 nav {

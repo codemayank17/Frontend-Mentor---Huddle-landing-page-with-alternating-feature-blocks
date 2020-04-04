@@ -30,6 +30,14 @@ body p {
   background-repeat: no-repeat;
 }
 
+@media only screen and (min-width: 768px) {
+  .top {
+    background-image: url(../images/bg-hero-desktop.svg);
+    background-size: 100% 90%;
+    background-color: rgba(235, 251, 255, 0.6);
+  }
+}
+
 nav {
   padding: 30px 25px;
   display: -webkit-box;
